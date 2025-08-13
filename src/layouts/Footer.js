@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import axios from "axios";
 
 
 const Footer = () => {
@@ -17,6 +18,7 @@ const Footer = () => {
               <a href="#" className="text-white me-3"><i className="fab fa-instagram"></i></a>
               <a href="#" className="text-white"><i className="fab fa-linkedin-in"></i></a>
             </div>
+
           </div>
 
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
