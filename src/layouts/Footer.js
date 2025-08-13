@@ -1,7 +1,9 @@
+import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
+
   return (
     <footer className="bg-dark text-white pt-5 pb-4">
       <div className="container">
