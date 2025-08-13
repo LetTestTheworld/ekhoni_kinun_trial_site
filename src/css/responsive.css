@@ -1,0 +1,252 @@
+/* device size 992 start*/
+@media (max-width: 992px) {
+
+    /* navbar styles start here */
+    .navbar-collapse {
+        /* background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
+        margin-top: 15px;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .search-box {
+        margin: 15px 0;
+        max-width: 100%;
+    }
+
+    .user-actions {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid #eee;
+    }
+
+    /* Navbar styles end here */
+
+
+
+    /* Category page styles start here */
+    .product-grid .col-xl-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    /* Category page styles end here */
+
+
+
+    /* Search result page styles start here */
+    .search-results .col-xl-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    /* Search result page styles end here */
+
+
+
+    /* Profile page styles start here */
+    .profile-stats .stat-item {
+        padding: 0 5px;
+    }
+
+    /* Profile page styles end here */
+
+
+     /* Auth page styles start here */
+     .auth-card{
+        width: 80% !important;
+    }
+    /* Auth page styles end here */
+
+
+}
+
+/* device size 992 start*/
+
+
+/* device size 768 start*/
+@media (max-width: 768px) {
+
+    /* Home page styles start here */
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2.2rem;
+    }
+
+    .category-card {
+        margin-bottom: 15px;
+    }
+
+    /* Home page styles end here */
+
+
+    /* Product details page styles start here */
+    .main-image {
+        height: 350px;
+    }
+
+    .product-title {
+        font-size: 1.5rem;
+    }
+
+    .action-buttons .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Product details page styles end here */
+
+
+
+    /* Category page styles start here */
+    .product-grid .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* Category page styles end here */
+
+
+
+    /* Search result page styles start here */
+    .search-results .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* Search result page styles end here */
+
+
+
+    /* Cart page styles start here */
+    .cart-table thead {
+        display: none;
+    }
+
+    .cart-table tr {
+        display: block;
+        margin-bottom: 1rem;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+    }
+
+    .cart-table td {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .cart-table td:before {
+        content: attr(data-label);
+        font-weight: 600;
+        margin-right: 1rem;
+    }
+
+    .quantity-input {
+        width: 150px;
+        margin-left: auto;
+    }
+
+    .remove-item {
+        margin-left: auto;
+    }
+
+    /* Cart page styles end here */
+
+
+
+    /* Check out page styles start here */
+    .checkout-steps .step-title {
+        font-size: 0.8rem;
+    }
+
+    .checkout-steps .step-number {
+        width: 30px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+
+    .checkout-steps .steps:before {
+        top: 15px;
+    }
+
+    /* Check out page styles end here */
+
+
+
+    /* Orders page styles start here */
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    .tracking-progress {
+        padding-left: 35px;
+    }
+
+    .step-icon {
+        left: -35px;
+        width: 30px;
+        height: 30px;
+        font-size: 0.8rem;
+    }
+
+    /* Orders page styles end here */
+
+
+
+    /* Profile page styles start here */
+    .profile-avatar {
+        margin-bottom: 20px;
+    }
+
+    .profile-stats {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .profile-stats .stat-item {
+        padding: 0;
+    }
+
+    /* Profile page styles end here */
+
+
+
+    /* Profile edit page styles start here */
+    .profile-avatar {
+        width: 120px;
+        height: 120px;
+    }
+
+    .avatar-upload-btn {
+        width: 35px;
+        height: 35px;
+        bottom: 5px;
+        right: 5px;
+    }
+
+    .section-title h5 {
+        font-size: 1.1rem;
+    }
+
+    /* Profile edit page styles end here */
+
+
+    /* Auth page styles start here */
+    .auth-card{
+        width: 95% !important;
+    }
+    /* Auth page styles end here */
+}
+
+/* device size 768 end*/

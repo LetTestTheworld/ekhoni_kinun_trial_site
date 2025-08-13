@@ -1,0 +1,103 @@
+/* Fade In Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+/* Slide Up Animation */
+@keyframes slideUp {
+    from { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-up {
+    animation: slideUp 0.6s ease-out;
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+/* Hover Animations */
+.hover-grow {
+    transition: transform 0.3s ease;
+}
+
+.hover-grow:hover {
+    transform: scale(1.03);
+}
+
+/* Category Strip Animation */
+.scrolling-categories {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    padding: 10px 0;
+}
+
+.scrolling-categories::-webkit-scrollbar {
+    display: none;
+}
+
+.category-item {
+    flex: 0 0 auto;
+    margin-right: 15px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.category-item:hover {
+    background: var(--primary-color);
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* Product Card Hover */
+.product-card .card-img-overlay {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background: rgba(0,0,0,0.5);
+}
+
+.product-card:hover .card-img-overlay {
+    opacity: 1;
+}
+
+/* Loading Animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading-spinner {
+    border: 3px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+    border-top: 3px solid var(--primary-color);
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+}
