@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ekhoni_kinun_trial_site/static/css/main.243edf59.css",
-    "main.js": "/ekhoni_kinun_trial_site/static/js/main.2966b649.js",
+    "main.js": "/ekhoni_kinun_trial_site/static/js/main.a3c5c582.js",
     "static/js/453.3a93ed01.chunk.js": "/ekhoni_kinun_trial_site/static/js/453.3a93ed01.chunk.js",
     "static/media/slick.svg": "/ekhoni_kinun_trial_site/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/ekhoni_kinun_trial_site/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/ekhoni_kinun_trial_site/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ekhoni_kinun_trial_site/index.html",
     "main.243edf59.css.map": "/ekhoni_kinun_trial_site/static/css/main.243edf59.css.map",
-    "main.2966b649.js.map": "/ekhoni_kinun_trial_site/static/js/main.2966b649.js.map",
+    "main.a3c5c582.js.map": "/ekhoni_kinun_trial_site/static/js/main.a3c5c582.js.map",
     "453.3a93ed01.chunk.js.map": "/ekhoni_kinun_trial_site/static/js/453.3a93ed01.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.243edf59.css",
-    "static/js/main.2966b649.js"
+    "static/js/main.a3c5c582.js"
   ]
 }
