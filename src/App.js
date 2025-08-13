@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/ekhoni_kinun_trial_site" element={<Home />} />
           <Route path="/our-shops" element={<Shops />} />
           <Route path="/shop/:shop_name/:owner_username" element={<SingleShop />} />
           <Route path="/shop/:shop_name/:owner_username/:product_slug" element={<ProductDetails />} />
