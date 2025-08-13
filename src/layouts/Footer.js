@@ -3,9 +3,6 @@ import axios from "axios";
 
 
 const Footer = () => {
-  async function clear(){
-    const {data} = await axios.get('/clear-cache');
-  }
   return (
     <footer className="bg-dark text-white pt-5 pb-4">
       <div className="container">
@@ -20,7 +17,6 @@ const Footer = () => {
               <a href="#" className="text-white"><i className="fab fa-linkedin-in"></i></a>
             </div>
 
-            <button className='btn btn-primary mt-4' onClick={clear}>Clear</button>
           </div>
 
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
