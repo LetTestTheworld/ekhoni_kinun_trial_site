@@ -30,9 +30,9 @@ import SearchedActionProducts from './for_all_users/SearchedActionProducts';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path="/ekhoni_kinun_trial_site" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/our-shops" element={<Shops />} />
           <Route path="/shop/:shop_name/:owner_username" element={<SingleShop />} />
           <Route path="/shop/:shop_name/:owner_username/:product_slug" element={<ProductDetails />} />
